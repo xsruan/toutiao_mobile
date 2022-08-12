@@ -1,4 +1,10 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+
+module.exports ={
+  transpileDependencies: true,
+  lintOnSave: false, // 关闭eslint语法校验规则
+  runtimeCompiler: true, // 
+}
+// module.exports = {
+//   lintOnSave: false, // 关闭eslint语法校验规则
+//   runtimeCompiler: true, // 使用包含运行时编译器的Vue内核版本
+// }
